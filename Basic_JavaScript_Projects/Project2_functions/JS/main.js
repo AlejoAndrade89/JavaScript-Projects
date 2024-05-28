@@ -5,6 +5,16 @@ export function updateElements() {
   document.getElementById("firstVariable").innerText = firstVar;
 }
 
+export function greeting() {
+  let A = "Using my new function :)";
+  document.getElementById("myFunction").innerHTML = A;
+}
+
+export function updateAndGreet() {
+  updateElements();
+  greeting();
+}
+
 document
   .getElementById("updateButton")
-  .addEventListener("click", updateElements);
+  .addEventListener("click", updateAndGreet);

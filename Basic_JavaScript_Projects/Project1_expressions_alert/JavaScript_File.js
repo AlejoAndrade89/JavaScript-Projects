@@ -1,7 +1,10 @@
-var A = "This is a String";
+var A = "Hello,World";
 
 const firstName = "Daniel";
 const lastName = "Andrade"; //defining a vriable
+
+var sent1 = "This is the beginning of the string";
+var sent2 = "and this is the end of the string";
 
 var B = "Breakfast",
   C = "sausage",
@@ -10,6 +13,10 @@ var B = "Breakfast",
 
 var fullBreakfast = D + C + E;
 
-document.write(D);
-document.write(firstName + " " + lastName);
 window.alert(A);
+document.write("This is my name:");
+document.write(firstName + " " + lastName);
+
+function displayDate() {
+  document.getElementById("demo").innerHTML = Date();
+}

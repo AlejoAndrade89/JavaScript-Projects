@@ -51,4 +51,27 @@ document.getElementById("updateButton").addEventListener("click", function () {
   more_Math();
   modulus_Operator();
   negation_Operation();
+
+  //Increment and Decrement Operators
+
+  let A = 40;
+  A++;
+  document.write("The result of incrementing 40 is = " + A);
+
+  let B = 50;
+  B--;
+  document.write("<br><br> The result of decrementing 50 is = " + B);
+
+  // Math.Random operations
+  window.alert(
+    "Following, a RANDOM numeber between 0 - 100 = " + Math.random() * 100
+  );
+  //Math. pow calculates the value of (x) raised to the power of (y)
+  window.alert("number 2 to the power of 3 is :" + Math.pow(2, 3));
+
+  //Math.max calculates the largest value among the provided arguments.
+  document.write(
+    "<br> the Largest value between 10,5,8 and 12 is = " +
+      Math.max(10, 5, 8, 12) // Result: 12
+  );
 });
